@@ -54,8 +54,8 @@ public:
                double infection_probability, int num_steps, double step_size,
                int recovery_time,  int susceptibility_time, int population_size,
                bool add_meetingpoint, double meetingpoint_probability,
-               std::string file_simulation = "../tests/simulation.csv",
-               std::string file_overview = "../tests/overview.csv");
+               std::string file_simulation = "../data/simulation.csv",
+               std::string file_overview = "../data/overview.csv");
 
     ~Simulation();
 
