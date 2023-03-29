@@ -1,4 +1,4 @@
-# Project: Simulate the spread of an epidemic
+# SIR-Project: Simulate the spread of an epidemic
 
 ## General project description
 The goal of this project is to implement at least one model to simulate and visualize the spread of an epidemic. Later on we will try to fit the model(s) to the current COVID-19 epidemic. The idea is to gradually increase the sophistication of the simulation by adding more assumptions and conditions, e.g. more complex behaviors of the people (people living in households, going to work, grocery store, separated communities, quarantine). Additionally, we might switch to to a modified SIR model to include different assumptions about the epidemic itself, e.g. a latent period of the disease where the person is not infectious. In the end, a visualization of the simulated data is planned. This probably will be done by exporting data and handling it in python. Alternatively, we might implement a live GUI where the user can choose the modeling parameters.
